@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(aod, betabin)
+importFrom(glmmML, glmmML)
+importFrom(numDeriv, jacobian, hessian)
+importFrom(metafor, trimfill, rma)
+importFrom(mvmeta, mvmeta, inputcov)
+importFrom(stats, pchisq, coef, cov, cor, vcov, cov2cor, dbinom, integrate, na.omit, optim, plogis, qlogis)
+
+
+S3method(summary, mmeta)
+S3method(summary, msset)
