@@ -21,3 +21,5 @@ Author: Yong Chen [aut, cre],
 Maintainer: Yong Chen <ychen123@upenn.edu>
 NeedsCompilation: no
 Repository: CRAN
+URL: https://github.com/ChuanHong/xmeta
+BugReports: https://github.com/ChuanHong/xmeta/issues
