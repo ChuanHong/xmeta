@@ -4,7 +4,7 @@
 \description{
 A new visualization method that simultaneously presents the effect sizes of bivariate outcomes and their standard errors in a two-dimensional space.}
 \usage{
-galaxy(data, nm.y1, nm.s1, nm.y2, nm.s2)
+galaxy(data, nm.y1, nm.s1, nm.y2, nm.s2, scale)
 }
 \arguments{
   \item{data}{dataset}
@@ -12,6 +12,7 @@ galaxy(data, nm.y1, nm.s1, nm.y2, nm.s2)
   \item{nm.s1}{column name for standard error of outcome 1}
   \item{nm.y2}{column name for outcome 2}
   \item{nm.s2}{column name for standard error of outcome 2}
+  \item{scale}{a pre-specified parameter to adjust for the length of the cross hair}
 }
 \details{
 This function returns the galaxy plot to visualize bivariate meta-analysis data, which faithfully retains the information in two separate funnel plots, while providing useful insights into outcome correlations, between-study heterogeneity and joint asymmetry.}
@@ -30,7 +31,7 @@ The galaxy plot is an intuitive visualization tool that can aid in interpretatio
 
 \examples{
 data(sim_dat)
-myplot=galaxy(data=sim_dat, nm.y1="y1", nm.s1="s1", nm.y2="y2", nm.s2="s2")
+myplot=galaxy(data=sim_dat, nm.y1="y1", nm.s1="s1", nm.y2="y2", nm.s2="s2", scale=0.15)
 }
 \keyword{Multivariate meta-analysis}
 \keyword{Small study effects}
