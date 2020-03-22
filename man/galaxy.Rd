@@ -29,8 +29,8 @@ This is the first test for detecting small study effects in multivariate meta-an
 \author{Chuan Hong}
 
 \examples{
-data(prostate)
-myplot=galaxy(data=prostate, nm.y1="y1", nm.s1="s1", nm.y2="y2", nm.s2="s2")
+data(sim_dat)
+myplot=galaxy(data=sim_dat, nm.y1="y1", nm.s1="s1", nm.y2="y2", nm.s2="s2")
 }
 \keyword{Multivariate meta-analysis}
 \keyword{Small study effects}
