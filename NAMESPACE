@@ -1,4 +1,5 @@
 exportPattern("^[[:alpha:]]+")
+importFrom(plotrix, draw.ellipse)
 importFrom(aod, betabin)
 importFrom(glmmML, glmmML)
 importFrom(numDeriv, jacobian, hessian)
