@@ -27,7 +27,7 @@ The galaxy plot is an intuitive visualization tool that can aid in interpretatio
 }
 \references{Chuan Hong, Rui Duan, Lingzhen Zeng, Rebecca A Hubbard, Thomas Lumley, Richard Riley, Haitao Chu, Stephen E Kimmel, Yong Chen, Galaxy Plot: A New Visualization Tool of Bivariate Meta-Analysis Studies, American Journal of Epidemiology, , kwz286, https://doi.org/10.1093/aje/kwz286.
 }
-\author{Chuan Hong}
+\author{Chuan Hong, Yong Chen}
 
 \examples{
 data(sim_dat)
